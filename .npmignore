@@ -1,0 +1,7 @@
+node_modules
+.git
+.DS_Store
+build
+dist
+coverage
+cli.js
