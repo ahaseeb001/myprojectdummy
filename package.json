@@ -1,6 +1,6 @@
 {
   "name": "myprojectdummy",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A CLI tool for initializing my React Native template",
   "main": "index.js",
   "bin": {

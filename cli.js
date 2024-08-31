@@ -9,7 +9,7 @@ program
   .description('Initialize a new project with My React Native Template')
   .action((projectName) => {
     console.log(`Creating a new React Native project named ${projectName}`);
-    const repoUrl = 'https://github.com/your-username/your-template-repo.git'; // Change this to your repo URL
+    const repoUrl = 'https://github.com/ahaseeb001/myprojectdummy.git'; // Change this to your repo URL
     execSync(`git clone ${repoUrl} ${projectName}`);
     execSync(`cd ${projectName} && rm -rf .git && npm install`);
     console.log(`Project ${projectName} created successfully!`);
